@@ -27,7 +27,7 @@ class WebpageSearchFragment : Fragment() {
         val btSearch: Button = view.findViewById(R.id.btnSearch)
         val etUrlSearch: EditText = view.findViewById(R.id.etUrlSearch)
 
-
+        //Equisde
         btSearch.setOnClickListener {
             val url = etUrlSearch.text.toString()
             webpageViewModel.setUrl(url)
