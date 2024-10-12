@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.slideshow.SlideshowFragment">
+    tools:context=".ui.slideshow.WebpageSearchFragment">
 
     <EditText
-        android:id="@+id/etKilometros"
+        android:id="@+id/etUser"
         android:layout_width="270dp"
         android:layout_height="65dp"
         android:layout_marginTop="36dp"
@@ -17,10 +17,10 @@
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/textLoginTitle" />
 
     <Button
-        android:id="@+id/btnCalcular"
+        android:id="@+id/btnIngresar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="68dp"
@@ -28,10 +28,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etMinutos" />
+        app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <TextView
-        android:id="@+id/textTitle"
+        android:id="@+id/textLoginTitle"
         android:layout_width="184dp"
         android:layout_height="27dp"
         android:layout_marginTop="72dp"
@@ -49,10 +49,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCalcular" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
 
     <EditText
-        android:id="@+id/etMinutos"
+        android:id="@+id/etPassword"
         android:layout_width="245dp"
         android:layout_height="49dp"
         android:layout_marginTop="44dp"
@@ -61,7 +61,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etKilometros" />
+        app:layout_constraintTop_toBottomOf="@+id/etUser" />
 
     <TextView
         android:id="@+id/textResult"

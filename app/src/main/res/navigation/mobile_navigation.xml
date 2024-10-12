@@ -19,7 +19,15 @@
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.pc1dam21100165.ui.slideshow.SlideshowFragment"
+        android:name="com.example.pc1dam21100165.ui.slideshow.WebpageSearchFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.example.pc1dam21100165.ui.webpage.WebpageSearchFragment"
+        android:label="WebpageSearchFragment" />
+    <fragment
+        android:id="@+id/nav_webpage"
+        android:name="com.example.pc1dam21100165.ui.webpage.WebpageShowFragment"
+        android:label="WebpageShowFragment" />
 </navigation>
